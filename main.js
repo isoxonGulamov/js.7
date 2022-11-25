@@ -55,7 +55,16 @@ let WorldCup = [
 let nomi = "a"
 
 while (nomi) {
-  nomi = prompt("Jahon Chempionatiga qaysi terma jamoaga muxlisiz")
+  nomi = prompt( `Jahon Chempionatiga qaysi terma jamoaga muxlisiz. 
+  Bizda quyidagi terma jamoalar bor.
+    1 - Portugaliya 
+    2 - Fransiya
+    3 - Brazilya
+    4 - Belgiya
+    5 - Ispaniya
+    6 - Germaniya
+    7 - Xorvatiya
+    8 - England`)
   let yesnot = false
   for (let teams of WorldCup) {
     if (teams.name.toLowerCase() == nomi.toLowerCase()) {
